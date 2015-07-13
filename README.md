@@ -27,6 +27,9 @@ To upload the contents of your `files/` directory to your Simple Page site:
 	$ popcli --user=tom@pop.co --password=xyzzy --domain=q4a.co simplepage upload files/
 ```
 
+For a full list of options and services that can be controlled, please see the help screen
+by typing `popcli -h`.
+
 Authors
 -------
 
