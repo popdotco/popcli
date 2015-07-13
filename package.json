@@ -1,0 +1,19 @@
+{
+  "name": "popcli",
+  "version": "0.0.1",
+  "description": "https://POP.co command line interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/popdotco/popcli.git"
+  },
+  "author": "POP.co LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/popdotco/popcli/issues"
+  },
+  "homepage": "https://github.com/popdotco/popcli#readme"
+}
