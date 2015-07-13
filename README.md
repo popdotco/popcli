@@ -23,3 +23,14 @@ To upload the contents of your `files/` directory to your Simple Page site:
 ```
 	$ popcli --user=tom@pop.co --password=xyzzy --domain=q4a.co simplepage upload files/
 ```
+
+Authors
+-------
+
+* Eblin Lopez 
+* Michael Martinez
+
+License
+-------
+
+MIT. See LICENSE.txt.
