@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/popdotco/popcli/issues"
   },
-  "homepage": "https://github.com/popdotco/popcli#readme"
+  "homepage": "https://github.com/popdotco/popcli#readme",
+  "dependencies": {
+    "request": "^2.58.0"
+  }
 }
