@@ -11,6 +11,9 @@ Not ready to use yet.
 Installation
 ------------
 
+First install [NodeJS](http://https://nodejs.org/) which comes with npm (the Node Package Manager).
+
+Then:
 ```
 	$ npm install -g popcli
 ```
@@ -34,3 +37,14 @@ License
 -------
 
 MIT. See LICENSE.txt.
+
+TODO
+----
+
+In summary, everything.
+
+* New account registration
+* Add domains
+* App installation
+* DNS changes
+* Simple Page block manipulation (to/from JSON)
