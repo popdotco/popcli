@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/popdotco/popcli#readme",
   "dependencies": {
+    "chalk": "^1.1.0",
     "node-getopt": "^0.2.3",
     "request": "^2.58.0"
-  }
+  },
+  "devDependencies": {}
 }
