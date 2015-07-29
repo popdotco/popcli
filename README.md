@@ -1,7 +1,7 @@
 # popcli
 ![popcli](https://s3.amazonaws.com/popco/images/POP-cli.gif)
 
-The command-line interface to [POP.co](https://pop.co), the world's easiest to way to get your idea online.
+The command line interface to [POP.co](https://pop.co), the world's easiest to way to get your idea online.
 
 # getting started
 
