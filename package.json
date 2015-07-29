@@ -1,6 +1,6 @@
 {
   "name": "popcli",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "The command line interface to POP.co, the world's easiest to way to get your idea online.",
   "main": "popcli.js",
   "bin": "popcli.js",
