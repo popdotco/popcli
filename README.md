@@ -97,4 +97,4 @@ Need help? Confused and have no idea what to do or what this is? [Contact us](ht
 
 # license
 
-Licensed under [MIT](https://github.com/popdotco/popcli/blob/master/LICENSE.txt)
+Licensed under [MIT](https://github.com/popdotco/popcli/blob/master/LICENSE)

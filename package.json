@@ -1,14 +1,11 @@
 {
   "name": "popcli",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "https://POP.co command line interface",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "popcli.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/popdotco/popcli.git"
+    "url": "https://github.com/popdotco/popcli.git"
   },
   "author": "POP.co LLC",
   "license": "MIT",
@@ -25,5 +22,4 @@
     "rc": "^1.0.3",
     "request": "^2.58.0"
   },
-  "devDependencies": {}
 }
