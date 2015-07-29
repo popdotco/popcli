@@ -1,8 +1,9 @@
 {
   "name": "popcli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The command line interface to POP.co, the world's easiest to way to get your idea online.",
   "main": "popcli.js",
+  "bin": "popcli.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/popdotco/popcli.git"
