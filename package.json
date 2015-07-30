@@ -1,6 +1,6 @@
 {
   "name": "popcli",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "The command line interface to POP.co, the world's easiest to way to get your idea online.",
   "main": "popcli.js",
   "bin": "popcli.js",
@@ -22,6 +22,7 @@
     "lodash": "^3.10.0",
     "node-getopt": "^0.2.3",
     "rc": "^1.0.3",
-    "request": "^2.58.0"
+    "request": "^2.58.0",
+    "untildify": "^2.1.0"
   }
 }
