@@ -51,8 +51,10 @@ More services will be available in future updates, such as ability to register a
 
 To upload the contents of your `files/` directory to use as your Simple Page:
 
+Supported file types: gif, jpg, jpeg, jpe, png, ico, svg, bmp, pdf, doc, docx, csv, txt, js, css, htm, html, xml, xls, xlsx, json.
+
 ```
-	popcli --user=tom@pop.co --password=xyzzy --domain=q4a.co simplepage upload files/
+popcli --user=tom@pop.co --password=xyzzy --domain=q4a.co simplepage upload files/
 ```
 
 For a full list of options and services that can be controlled, please see the help screen
@@ -62,22 +64,22 @@ by typing `popcli -h`.
 
 To see a list of all domains tied to your POP account
 ```
-	popcli --user=tom@pop.co --password=xyzzy --domain=q4a.co domains list
+popcli --user=tom@pop.co --password=xyzzy --domain=q4a.co domains list
 ```
 
 # config
 If you don't want to constantly type your credentials you can create a `.popclirc` file and put your credentials in there:
 
 ```
-	user=xxx@domain.tld
-	pass=qwerty
-	domain=domain.tld
+user=xxx@domain.tld
+pass=qwerty
+domain=domain.tld
 ```
 
 Any flags you pass in the command line will override whatever it's in the config. e.g.
 
 ```
-	popcli --domain=otherdomain.tld ...
+popcli --domain=otherdomain.tld ...
 ```
 The above will use `otherdomain.tld` rather than `domain.tld` defined in the config.
 
