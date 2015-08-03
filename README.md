@@ -54,7 +54,7 @@ To upload the contents of your `files/` directory to use as your Simple Page:
 Supported file types: gif, jpg, jpeg, jpe, png, ico, svg, bmp, pdf, doc, docx, csv, txt, js, css, htm, html, xml, xls, xlsx, json.
 
 ```
-popcli --user=tom@pop.co --password=xyzzy --domain=q4a.co simplepage upload files/
+popcli -u=tom@pop.co -p=xyzzy -d=q4a.co simplepage upload files/
 ```
 
 For a full list of options and services that can be controlled, please see the help screen
@@ -64,7 +64,7 @@ by typing `popcli -h`.
 
 To see a list of all domains tied to your POP account
 ```
-popcli --user=tom@pop.co --password=xyzzy --domain=q4a.co domains list
+popcli -u=tom@pop.co -p=xyzzy -d=q4a.co domains list
 ```
 
 # config
@@ -79,7 +79,7 @@ domain=domain.tld
 Any flags you pass in the command line will override whatever it's in the config. e.g.
 
 ```
-popcli --domain=otherdomain.tld ...
+popcli -d=otherdomain.tld ...
 ```
 The above will use `otherdomain.tld` rather than `domain.tld` defined in the config.
 
